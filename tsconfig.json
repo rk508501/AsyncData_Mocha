@@ -10,16 +10,17 @@
     "strictNullChecks": false,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
-    "declaration": false,
-    "sourceMap": true,
+    "declaration": true,
+    "sourceMap": false,
     "outDir": "./dist",
     "rootDir": "./",
-    "types": ["node", "mocha"],
+    "types": ["node", "mocha", "chai"],
     "resolveJsonModule": true
   },
   "include": [
     "tests/**/*.ts",
-    "testdata/**/*.json"
+    "testdata/**/*.json",
+    "global-types.d.ts",
   ],
   "exclude": [
     "node_modules"

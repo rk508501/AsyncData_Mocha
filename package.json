@@ -8,10 +8,10 @@
     "build": "tsc",
     "start": "node -r esm index.ts",
     "fetch": "npx ts-node write_testdata.ts",
-    "pretest":"npm run fetch"
+    "pretest": "npm run fetch"
   },
   "keywords": [
-    "typescript", 
+    "typescript",
     "mocha",
     "esm",
     "nodejs"
@@ -23,6 +23,7 @@
     "@types/mocha": "^9.0.0",
     "chai": "^4.3.4",
     "mocha": "^9.0.0",
+    "pactum": "^3.6.0",
     "ts-node": "^10.9.2",
     "typescript": "^4.5.4"
   }
