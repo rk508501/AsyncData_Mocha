@@ -8,7 +8,7 @@ function writeDataToFile() {
         fs.mkdirSync('testdata')
     }
 
-    const fruits = ["Apple", "Banana", "Orange"]
+    const fruits = ["Dragonfruit", "Custard Apple", "Jackfruit"]
     fs.writeFileSync("testdata/fruits.json", JSON.stringify(fruits))
     console.log("Test data written successfully");
 }

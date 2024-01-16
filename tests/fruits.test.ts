@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import fruitsData from '../testdata/fruits.json' assert { type: 'json' };
+import fruitsData from '../testdata/fruits.json';
 
 describe("Fruits data verification", async function () {
     console.log(fruitsData);
