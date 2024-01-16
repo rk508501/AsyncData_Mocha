@@ -13,17 +13,13 @@
     "declaration": false,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./",
     "types": ["node", "mocha"],
     "resolveJsonModule": true
   },
   "include": [
     "tests/**/*.ts",
-    "testdata/**/*.ts"
-  ],
-  "files": [
-    "tests/**/*.ts",
-    "./tests/**/*.ts"
+    "testdata/**/*.json"
   ],
   "exclude": [
     "node_modules"
